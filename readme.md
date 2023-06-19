@@ -42,30 +42,31 @@ Date
 (c) add action path.(done)
 (d) debug action in php file.(done)
 (e) validate empty field, validate strip extra spaces.
+
+---
+### Done till here.
+---
+
+### Will start from here:
+
+
   
-(e) save action perams into database table.
+1. Save action perams into database table.
 2. Updating data with php form.
+3. Dashbord (table,contact massages ).
+4. Sidebar to table.
+5. Create user table
+6. Plan about athentication (email,password,jwt token) bcrypt.
+7. Composer package install.
+8. Impliment authentication.
+9. Plan user authorisation, role base access.3
+10. create a new folder name validations.(done)
 
-Date
-24.5.2013
 
-1. Dashbord (table,contact massages ).
-2. Sidebar to table.
-3. Create user table
-4. Plan about athentication (email,password,jwt token) bcrypt.
-5. Composer package install.
 
-Date 
-25.5.2023
-
-1. Impliment authentication.
-2. Plan user authorisation, role base access.
-
-date
-1.6.2023
-
-1. create a new folder name validations.(done)
-2. put all the validation in as separeted files, as class.
+### Refactor:
+---
+11. put all the validation in as separeted files, as class.
    Example: EmptyStringChecker{},
    $stringChcker  = new EmptyStringChecker,
    $emptyCheker->isEmpty('Valueoffrom').
