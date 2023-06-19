@@ -139,15 +139,53 @@ Date
 ```
    
    
-4. Updating data with php form.
 5. Dashbord (table,contact massages ).
-6. Sidebar to table.
-7. Create user table
-8. Plan about athentication (email,password,jwt token) bcrypt.
-9. Composer package install.
-10. Impliment authentication.
-11. Plan user authorisation, role base access.3
-12. create a new folder name validations.(done)
+   ```
+   Task Summary:
+   The task is to create a dashboard that displays a table and manages contact messages. This feature aims to provide an organized view of contact messages received from users, allowing efficient management and response. The task involves designing and implementing a user-friendly dashboard interface, integrating a table to display messages, and providing functionality to handle message actions.
+   
+   Task Details:
+   
+   Dashboard Design:
+   
+   Design a visually appealing and user-friendly dashboard interface for managing contact messages.
+   
+   Table Integration:
+   
+   Develop a table component to display contact messages.
+   Define the necessary columns to represent relevant message attributes (e.g., sender name, email, subject, date, etc.).
+   Implement sorting and filtering options to allow users to find messages based on specific criteria.
+   Message Management Functionality:
+   
+   
+   Implement pagination functionality to handle a large number of messages.
+   Divide the messages into manageable pages and provide navigation options for users to move between pages.
+   Ensure smooth loading and rendering of messages to maintain a good user experience.
+   Search Functionality:
+   
+   Incorporate a search feature to allow users to search for specific messages based on keywords, sender name, or other relevant attributes.
+   Develop a search mechanism that dynamically updates the table results as users enter their search queries.
+   User Authentication and Authorization:
+   
+   Documentation:
+   
+   Document the steps involved in accessing and utilizing the dashboard.
+   Provide clear instructions on how to perform various actions, such as viewing, managing, and responding to messages.
+   Document any customization options or configuration settings available for the dashboard.
+   Deployment and Rollout:
+   
+   Coordinate with the relevant team members to deploy the dashboard to the production environment.
+   Ensure appropriate backups and version control measures are in place before deploying the changes.
+   Communicate the availability of the new dashboard functionality to stakeholders and provide necessary training or documentation.
+   Note: This task assumes you have an existing system or framework in which the dashboard will be integrated. Adjustments may be required to align with your specific   technologies, frameworks, or conventions utilized in your environment.
+   ```
+7. Sidebar to table.
+8. Create user table
+9. Plan about athentication (email,password,jwt token) bcrypt.
+10. Composer package install.
+11. Impliment authentication.
+12. Plan user authorisation, role base access.3
+13. create a new folder name validations.(done)
 
 
 
