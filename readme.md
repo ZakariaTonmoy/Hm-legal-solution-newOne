@@ -52,15 +52,48 @@ Date
 
   
 1. Save action perams into database table.
-2. Updating data with php form.
-3. Dashbord (table,contact massages ).
-4. Sidebar to table.
-5. Create user table
-6. Plan about athentication (email,password,jwt token) bcrypt.
-7. Composer package install.
-8. Impliment authentication.
-9. Plan user authorisation, role base access.3
-10. create a new folder name validations.(done)
+   ### Task Summary:
+   The task is to develop a functionality that allows saving action parameters into a database table. This feature aims to store relevant information about actions performed    within a system, enabling efficient tracking and analysis of user interactions. The task involves implementing the necessary code and database schema changes to ensure       seamless data storage and retrieval.
+   
+   ### Task Details:
+   
+   Database Integration:
+   
+   Review the existing database schema and identify the appropriate table to store action parameters.
+   Analyze the data requirements and modify the table structure if necessary to accommodate the new parameters.
+   Ensure proper indexing and data types for efficient querying and storage.
+   Action Parameter Collection:
+   
+   Identify the actions for which parameters need to be saved.
+   Determine the relevant parameters to be captured for each action.
+   Implement the necessary code changes to collect the parameters during action execution.
+   Database Persistence:
+   
+   Develop the code logic to save the collected action parameters into the designated database table.
+   Utilize appropriate database query or ORM (Object-Relational Mapping) techniques for efficient data insertion.
+   Implement error handling mechanisms to handle database connectivity issues or data insertion failures.
+   Data Retrieval and Analysis:
+   
+   Develop retrieval mechanisms to fetch action parameters from the database table.
+   Implement necessary filtering and sorting options to facilitate data analysis based on different criteria.
+   Integrate the retrieved data into the system's reporting or analysis modules, if applicable.
+   Testing and Quality Assurance:
+   
+   Document the changes made to the database schema, including table structure modifications, indexing, and data types.
+   Provide clear instructions on how to utilize the new functionality for future reference.
+   Document any additional configuration requirements or considerations.
+   Deployment and Rollout:
+   
+   
+3. Updating data with php form.
+4. Dashbord (table,contact massages ).
+5. Sidebar to table.
+6. Create user table
+7. Plan about athentication (email,password,jwt token) bcrypt.
+8. Composer package install.
+9. Impliment authentication.
+10. Plan user authorisation, role base access.3
+11. create a new folder name validations.(done)
 
 
 
